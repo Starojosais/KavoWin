@@ -8,7 +8,7 @@
       every connection is cleaned up when the window is destroyed.
 
     Usage:
-        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/<you>/<repo>/main/KavoWin.lua"))()
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Starojosais/KavoWin/refs/heads/main/KavoWin.lua"))()
         local Window  = Library.CreateLib("My Hub", "Windows11")
         local Tab     = Window:NewTab("Main")
         local Section = Tab:NewSection("Player")

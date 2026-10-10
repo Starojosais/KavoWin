@@ -3,7 +3,7 @@
 A faster, better looking, **Kavo-compatible** UI library for Roblox with Windows themes.
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_NAME/YOUR_REPO/main/KavoWin.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Starojosais/KavoWin/refs/heads/main/KavoWin.lua"))()
 local Window  = Library.CreateLib("My Hub", "Windows11")
 local Tab     = Window:NewTab("Main")
 local Section = Tab:NewSection("Player")

@@ -1,6 +1,6 @@
 -- KavoWin example: every element + every extra feature
--- Replace the URL with your own raw GitHub link once the library is uploaded.
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_NAME/YOUR_REPO/main/KavoWin.lua"))()
+-- Loads KavoWin straight from GitHub.
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Starojosais/KavoWin/refs/heads/main/KavoWin.lua"))()
 
 -- Themes: "Windows98" "WindowsVista" "WindowsLonghorn" "Windows7" "Windows10" "Windows11"
 --         "Windows10Light" "Windows11Light"   (or a Kavo style colour table)
